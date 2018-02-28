@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mtz.controller.HistoryController">
+   <children>
+      <Label layoutX="212.0" layoutY="8.0" prefHeight="43.0" prefWidth="227.0" text="游戏历史记录">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tabel" layoutX="20.0" layoutY="61.0" prefHeight="285.0" prefWidth="556.0">
+        <columns>
+          <TableColumn fx:id="time" prefWidth="214.0" text="游戏时间" />
+          <TableColumn fx:id="grate" prefWidth="143.0" text="游戏积分" />
+            <TableColumn fx:id="stage" prefWidth="198.0" text="游戏状态" />
+        </columns>
+      </TableView>
+      <Button fx:id="btn" layoutX="163.0" layoutY="354.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="256.0" text="返回首页">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</Pane>

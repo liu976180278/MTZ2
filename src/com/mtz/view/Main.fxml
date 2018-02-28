@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="mainPane" fx:id="apane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="393.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mtz.controller.MainController">
+   <children>
+      <VBox layoutX="233.0" layoutY="125.0" prefHeight="246.0" prefWidth="159.0">
+         <children>
+            <Label id="aaa" fx:id="ksyx" prefHeight="42.0" prefWidth="159.0" style="-fx-background-color: #fff;" text="  开   始   游   戏">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label prefHeight="15.0" prefWidth="174.0" />
+            <Label id="aaa" fx:id="yxjl" prefHeight="42.0" prefWidth="159.0" style="-fx-background-color: #fff;" text="  游   戏   记   录">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+            <Label prefHeight="15.0" prefWidth="174.0" />
+            <Label id="aaa" fx:id="tcyx" prefHeight="42.0" prefWidth="159.0" style="-fx-background-color: #fff;" text="  退   出   游   戏">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

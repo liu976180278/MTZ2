@@ -1,0 +1,14 @@
+/* #menu_icon_checked:hover {
+	-fx-background-image: url(../image/main/menu_icon_checked.png);
+	-fx-background-size: stretch; 
+	-fx-background-position: center center;
+} */
+#mainPane{
+	 -fx-background-image: url(../image/标题画面.jpg); 
+}
+#aaa:hover{
+	-fx-background-image: url(../image/标题画面.jpg); 
+}
+#runPane{
+	-fx-background-image: url(../image/bjRun.jpg); 
+}
